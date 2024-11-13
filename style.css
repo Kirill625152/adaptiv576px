@@ -1,0 +1,190 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+::after {
+    box-sizing: inherit;
+}
+p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+a {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    word-break: normal;
+    object-fit: cover;
+}
+body {
+    background-color: rgba(42, 47, 66, 0.04);
+    min-width: 320px;
+    word-break: normal;
+    font-family: "Roboto", sans-serif;
+}
+/* global */
+
+.body-all {
+    margin-left: 150px;
+     max-width: 900px;
+     max-height: 1200px;
+     border: solid 1px black;
+ }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-user-name{
+    padding: 48px 0 0 68px;
+    max-width: 700px;
+}
+
+.header-Kirill{
+    margin: 40px 90px 0 0;
+    height: 120px;
+    width: 120px;
+}
+
+.header-name{
+    padding-left: 70px;
+    font-size: 28px;
+    font-weight: 600 ;
+}
+
+.header-speciality{
+    font-size: 28px;
+    padding-top: 10px;
+}
+
+.main-experience{
+    padding: 10px 0 0 160px;
+}
+
+.main-experience-full{
+    margin-top: 20px;
+    max-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-op-rabot{
+    margin-bottom: 25px;
+}
+
+.main-obrazovanie{
+    margin-bottom: 30px;
+ }
+
+ .main-text-obrazovanie{
+    margin: 5px 20px 0 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+ .main-rabota{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px ;
+ }
+
+ .main-experience-zagolovok-obrazovanie{
+    margin: 0 0 0 40px; 
+ }
+ 
+.main-experience-zagolovok{
+    margin: 0 0 0 30px; 
+}
+
+.main-text-obrazovanie-rus{
+    margin: 0 0 0 50px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.text-otstyp{
+    margin-top: 10px;
+}
+
+.main-text-obrazovanie-vash{
+    margin: 0 0 0 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.main-text-obrazovanie-skills{
+    margin: 0 0 0 40px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.main-experience-zagolovok-skills{
+    margin: 0 0 0 70px; 
+}
+
+.main-text-obrazovanie-skills-java{
+    margin: 5px 0 0 25px;
+    font-size: 16px;
+    letter-spacing: 1px; 
+}
+
+.main-text-obrazovanie-skills-verstka{
+    margin: 5px 0 0 20px;
+    font-size: 16px;
+    letter-spacing: 1px; 
+}
+
+.main-almaz-cartinka {
+    padding-left: 170px;
+}
+
+.main-sber-cartinka{
+    padding-left: 200px;  
+}
+
+.main-nazvanie-compani{
+    margin-right: 140px;
+    font-size: 17px;
+}
+
+.main-nazvanie-compani-sber{
+    margin-right: 180px;
+    font-size: 17px;
+}
+
+.main-obo-mne {
+    margin-top: 50px;
+    max-width: 1280px;
+}
+
+.main-obo-mne-zogolovok{
+    margin-left: 50px;
+}
+
+
+.main-opisanie {
+    margin: 10px 0 0 48px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.main-opisanie-data {
+    margin: 10px 0 0 130px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.main-text-me{
+    padding: 20px 0 0 10px;
+    line-height: 25px;
+    text-indent: 40px;
+    letter-spacing: 1px;
+    height: 600px;
+}
